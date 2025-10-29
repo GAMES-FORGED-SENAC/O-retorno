@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://duj8jtbusb2ei"
+path="res://.godot/imported/FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3-b08c094096878491b01559af91810419.mp3str"
+
+[deps]
+
+source_file="res://assestes/FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3"
+dest_files=["res://.godot/imported/FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3-b08c094096878491b01559af91810419.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
