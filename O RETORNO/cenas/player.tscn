@@ -1,47 +1,93 @@
-[gd_scene load_steps=16 format=3 uid="uid://cu8857yyd8rqg"]
+[gd_scene load_steps=27 format=3 uid="uid://cu8857yyd8rqg"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_q0ect"]
-[ext_resource type="Texture2D" uid="uid://0xl2afm5mgqt" path="res://animação-Photoroom.png" id="2_tikco"]
-[ext_resource type="Texture2D" uid="uid://ckle1wyej1nkc" path="res://ChatGPT Image 29 de out. de 2025, 09_52_29-Photoroom.png" id="3_v6p8y"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1jwjt"]
+load_path = "res://.godot/imported/animação-Photoroom.png-46f69a96d12fa31999d3a7e3a5a9440e.ctex"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bbo2k"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(625, 41, 298, 694)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lf5fr"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(923, 41, 298, 694)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wiyms"]
+load_path = "res://.godot/imported/ChatGPT Image 29 de out. de 2025, 09_52_29-Photoroom.png-bccf5074fdec4cfdc98dbfc05ad7f3f1.ctex"
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_pvke1"]
-atlas = ExtResource("3_v6p8y")
+atlas = SubResource("CompressedTexture2D_wiyms")
 region = Rect2(29, 106, 210, 673)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rgi26"]
-atlas = ExtResource("3_v6p8y")
+atlas = SubResource("CompressedTexture2D_wiyms")
 region = Rect2(251, 106, 222, 673)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_35rnc"]
-atlas = ExtResource("3_v6p8y")
-region = Rect2(483, 106, 227, 673)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_lovbs"]
-atlas = ExtResource("3_v6p8y")
+atlas = SubResource("CompressedTexture2D_wiyms")
 region = Rect2(713, 106, 228, 673)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_35rnc"]
+atlas = SubResource("CompressedTexture2D_wiyms")
+region = Rect2(483, 106, 227, 673)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_alvoa"]
+load_path = "res://.godot/imported/animacao do fogo-Photoroom.png-b2d8dae360fbcbfdf3662be9a3705649.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ub00b"]
+atlas = SubResource("CompressedTexture2D_alvoa")
+region = Rect2(0, 0, 319, 853)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7ayt"]
+atlas = SubResource("CompressedTexture2D_alvoa")
+region = Rect2(289, 0, 289, 844)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_syq5y"]
+atlas = SubResource("CompressedTexture2D_alvoa")
+region = Rect2(514, 0, 257, 844)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpeqd"]
+atlas = SubResource("CompressedTexture2D_alvoa")
+region = Rect2(771, 0, 257, 844)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e5sxn"]
+atlas = SubResource("CompressedTexture2D_alvoa")
+region = Rect2(912, 0, 304, 844)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wvy5i"]
+load_path = "res://.godot/imported/ChatGPT Image 4 de nov. de 2025, 09_52_29-Photoroom.png-91393a1d3a6cb74f9cc580c079eefaaf.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdmes"]
+atlas = SubResource("CompressedTexture2D_wvy5i")
+region = Rect2(0, 0, 321, 844)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3keuk"]
+atlas = SubResource("CompressedTexture2D_wvy5i")
+region = Rect2(321, 0, 321, 844)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_27chr"]
+atlas = SubResource("CompressedTexture2D_wvy5i")
+region = Rect2(622, 0, 311, 849)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yy5qi"]
+atlas = SubResource("CompressedTexture2D_wvy5i")
+region = Rect2(933, 0, 311, 849)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_pcpg6"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(29, 82, 319, 629)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jxmvu"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(339, 82, 310, 629)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l0s4t"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(625, 82, 298, 629)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pcie5"]
-atlas = ExtResource("2_tikco")
+atlas = SubResource("CompressedTexture2D_1jwjt")
 region = Rect2(929, 82, 300, 629)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_fbcdy"]
@@ -65,10 +111,25 @@ animations = [{
 "texture": SubResource("AtlasTexture_rgi26")
 }, {
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_lovbs")
+}, {
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_35rnc")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_lovbs")
+"texture": SubResource("AtlasTexture_ub00b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7ayt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_syq5y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpeqd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e5sxn")
 }],
 "loop": true,
 "name": &"ataque",
@@ -79,7 +140,19 @@ animations = [{
 "name": &"dano",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdmes")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3keuk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_27chr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yy5qi")
+}],
 "loop": true,
 "name": &"morte",
 "speed": 5.0
@@ -111,9 +184,8 @@ script = ExtResource("1_q0ect")
 [node name="animacao" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_fbcdy")
-animation = &"ataque"
+animation = &"morte"
 autoplay = "parado"
-frame_progress = 0.577683
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, -4)

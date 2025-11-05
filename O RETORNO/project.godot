@@ -13,7 +13,7 @@ config_version=5
 config/name="Novo Projeto de Jogo"
 run/main_scene="res://cenas/menu.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-config/icon="res://assestes/icon.svg"
+config/icon="res://icon.svg"
 
 [display]
 

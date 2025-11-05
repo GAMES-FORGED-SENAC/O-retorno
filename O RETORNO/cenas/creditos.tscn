@@ -1,9 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://dtmxn4247ms3q"]
 
 [ext_resource type="Script" path="res://scripts/creditos.gd" id="1_ol44u"]
-[ext_resource type="Texture2D" uid="uid://62hcsk4doykv" path="res://assestes/Captura de Tela 2025-10-20 às 11.23.09.png" id="2_bbxcl"]
-[ext_resource type="AudioStream" uid="uid://duj8jtbusb2ei" path="res://assestes/FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3" id="2_d516c"]
-[ext_resource type="Texture2D" uid="uid://ua8blxkcunuf" path="res://assestes/WhatsApp Image 2025-10-20 at 11.42.54-Photoroom.png" id="4_hdhgt"]
+[ext_resource type="AudioStream" uid="uid://duj8jtbusb2ei" path="res://FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3" id="2_d516c"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ya4qn"]
+load_path = "res://.godot/imported/Captura de Tela 2025-10-20 às 11.23.09.png-70576f439b899f3da43772a183e9471f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3s5vy"]
+load_path = "res://.godot/imported/WhatsApp Image 2025-10-20 at 11.42.54-Photoroom.png-ee8e1f50bfb660f288f122c56106628d.ctex"
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_ol44u")
@@ -17,7 +21,7 @@ offset_bottom = 613.0
 [node name="CapturaDeTela2025-10-20Às11_23_09" type="Sprite2D" parent="."]
 position = Vector2(576.75, 325)
 scale = Vector2(1.05647, 1.06515)
-texture = ExtResource("2_bbxcl")
+texture = SubResource("CompressedTexture2D_ya4qn")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_d516c")
@@ -28,6 +32,6 @@ autoplay = true
 [node name="WhatsAppImage2025-10-20At11_42_54-photoroom" type="Sprite2D" parent="."]
 position = Vector2(116, 566)
 scale = Vector2(0.270142, 0.268677)
-texture = ExtResource("4_hdhgt")
+texture = SubResource("CompressedTexture2D_3s5vy")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

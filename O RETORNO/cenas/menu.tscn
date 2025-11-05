@@ -1,12 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://b2obr3rol0qlr"]
+[gd_scene load_steps=7 format=3 uid="uid://b2obr3rol0qlr"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_c0db5"]
-[ext_resource type="Texture2D" uid="uid://b2n6clgfa5b23" path="res://assestes/WhatsApp Image 2025-10-15 at 09.04.16.jpeg" id="2_byn38"]
-[ext_resource type="Texture2D" uid="uid://btody62hajq66" path="res://assestes/WhatsApp Image 2025-10-20 at 10.32.26.jpeg" id="3_jwck3"]
-[ext_resource type="Texture2D" uid="uid://cqhsva8v2ouwp" path="res://assestes/imagem play Preto.jpeg" id="4_y6oco"]
-[ext_resource type="Texture2D" uid="uid://dkxrlfdqqxgqo" path="res://assestes/WhatsApp Image 2025-10-20 at 09.38.46.jpeg" id="5_8imsv"]
-[ext_resource type="AudioStream" uid="uid://duj8jtbusb2ei" path="res://assestes/FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3" id="6_vjtb6"]
-[ext_resource type="Texture2D" uid="uid://bcasgcbeueml3" path="res://assestes/sangue red-Photoroom.png" id="7_xdgs7"]
+[ext_resource type="Texture2D" uid="uid://b2n6clgfa5b23" path="res://WhatsApp Image 2025-10-15 at 09.04.16.jpeg" id="2_byn38"]
+[ext_resource type="Texture2D" uid="uid://btody62hajq66" path="res://WhatsApp Image 2025-10-20 at 10.32.26.jpeg" id="3_jwck3"]
+[ext_resource type="Texture2D" uid="uid://cqhsva8v2ouwp" path="res://imagem play Preto.jpeg" id="4_y6oco"]
+[ext_resource type="Texture2D" uid="uid://dkxrlfdqqxgqo" path="res://WhatsApp Image 2025-10-20 at 09.38.46.jpeg" id="5_8imsv"]
+[ext_resource type="AudioStream" uid="uid://duj8jtbusb2ei" path="res://FUNDO MUSICAL _ SUSPENSE _ TERROR _ HORROR THEMES _ MÚSICAS DE TERROR _ SOUNDTRACK 58 [P4hI5Mp93LA].mp3" id="6_vjtb6"]
 
 [node name="menu" type="Node2D"]
 script = ExtResource("1_c0db5")
@@ -65,12 +64,6 @@ stream = ExtResource("6_vjtb6")
 volume_db = 24.0
 pitch_scale = 4.0
 autoplay = true
-
-[node name="SangueRed-photoroom" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0.611765)
-position = Vector2(968, 143)
-scale = Vector2(0.501351, 0.389696)
-texture = ExtResource("7_xdgs7")
 
 [connection signal="pressed" from="play2" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="creditos2" to="." method="_on_creditos_2_pressed"]
